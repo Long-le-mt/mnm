@@ -16,9 +16,18 @@ arr2 = [2, 4, 6, 8]
 # print(arr1)
 
 # b
-# a = [1,2,3]
-# b = [4,5,6]
-# c = [10,11,12]
-# d = [7,8,9]
-# arr = [a, b, c ,d]
-# print(max(arr, key=sum))
+a = [1,2,3]
+b = [4,5,6]
+c = [10,11,12]
+d = [7,8,9]
+arr = [a, b, c ,d]
+e = []
+e.append(a)
+e.append(b)
+e.append(c)
+e.append(d)
+
+
+print(e)
+print(max(e, key=sum))
+print(max(arr, key=sum))
